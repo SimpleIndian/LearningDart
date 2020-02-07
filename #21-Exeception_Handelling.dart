@@ -7,10 +7,10 @@ void main(){
       //it is use when the code can be crash due to code bug we use exception handeling.
   
   /*          Four type of exception Handelling
-   * try keyword using on --> when we know the exception 
-   * try keyord using catch --> when we don't know the exception
-   * try keyword using catch and finally --> it is like catch keyword but with an extra argument\
-   * try keyword using catch and stackTrace object --> when we don't know the exception and want to know the step before the exception
+   * try keyword using on --> when we know the exception .
+   * try keyord using catch --> when we don't know the exception.
+   * try keyword using catch and finally --> it is like catch keyword but with an extra argument.
+   * try keyword using catch and stackTrace object --> when we don't know the exception and want to know the step before the exception.
    */
   
   
@@ -31,7 +31,7 @@ void main(){
   try {
     int result = 50 ~/ 0; //
   print("the result is $result");
-  } catch(e) { // 'e' Argument refers to the exception object
+  } catch(e) { // 'e' Argument refers to the exception object.
     print("the Exception is $e");
   }
    print("");
@@ -39,7 +39,7 @@ void main(){
   
   //3. Exception Handelling using 'try' and 'catch' and 'finally ' Keyword.
   print("case:3");
-  //When we don't know the exception name we can use 'Catch' keyword and finally  keyword for an extra information 
+  //When we don't know the exception name we can use 'Catch' keyword and finally  keyword for an extra information .
   //finally statement will execute when there is no exception.
   try {
     int result = 50 ~/ 0; //
@@ -53,7 +53,7 @@ void main(){
   
   //4. Exception Handelling using 'try' and 'catch' Keyword with stacktrace.
    print("case:4");
-  //When we don't know the exception name we can use 'Catch' keyword
+  //When we don't know the exception name we can use 'Catch' keyword.
   try {
     int result = 50 ~/ 0; //
   print("the result is $result");
