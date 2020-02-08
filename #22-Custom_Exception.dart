@@ -1,6 +1,6 @@
 void main(){
 
-  // <!-- this exception exception cannot work in some ide so please suggest some exception and fork it ---!>
+  // <!-- th is exception exception cannot work in some ide so please suggest some exception and fork it ---!>
   
                       //Custom Exception in Dart.
   try{//we have use error handelling here also.
