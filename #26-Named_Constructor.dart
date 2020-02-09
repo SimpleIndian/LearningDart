@@ -23,6 +23,7 @@ void main(){
 class Student{
   int id; 
   String name;
+   //it although look like function but Constructor Doesnot have return type.
   /*
    Student.myNamedConstructor(){
      print("Hello Named Constructor ");//Normal Named Constuctor

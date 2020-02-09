@@ -37,7 +37,7 @@ void main(){
 class Student{
   int id; 
   String name;
-  
+  //it although look like function but Constructor Doesnot have return type.
   Student(){ //we add executable code in default constuctor.
     print("Hello Constuctor--> this time is constuctor executed");
   }

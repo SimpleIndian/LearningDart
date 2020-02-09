@@ -37,6 +37,7 @@ void main(){
 class Student{
   int id; 
   String name;
+   //it although look like function but Constructor Doesnot have return type.
  /* 
   Student(int id, String name){ //we add Parameter in constuctor-->
     
