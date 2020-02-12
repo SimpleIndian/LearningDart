@@ -46,4 +46,4 @@ class Dog extends Animal{
 //if we Don't call the parent class constructor it will be executed Normally like we are calling super class.
 //if we pass a parameter this sequence will not be distracted.
 //parent class constuctor is called before the child class.
-//if default class is missing in the parent class then we have to mandatory call the super keyword in child class.
+//if we pass a parameter this sequence will not be distracted.
