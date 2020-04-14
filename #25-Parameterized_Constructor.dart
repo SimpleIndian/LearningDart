@@ -45,7 +45,8 @@ class Student{
     this.name = name;
   }*/
   //we can trim down the code by this way like-->
-    Student(this.id,this.name); //this will take the parameter to assign it to name and id varriable.
+    Student(this.id,this.name); //this parameter refers to the 'id'&'name'  varriable, the value we-->
+    //put assign as the the id and name value.
   
   void sleep(){
     print("${this.name}'s sleep too much");
